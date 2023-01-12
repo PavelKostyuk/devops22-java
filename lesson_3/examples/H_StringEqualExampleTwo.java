@@ -9,7 +9,7 @@ public class H_StringEqualExampleTwo {
         String hello2 = "hello";
 
         // This will also use the same reference
-        String he_llo = "he" + "llo";
+        String he_llo = "he" + "llo"; //"hello" är samma sak 
 
         // This evaluated if they are the the same object
         System.out.printf("hello == hello2 -> %s\n", hello == hello2);
